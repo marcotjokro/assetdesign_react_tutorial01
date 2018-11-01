@@ -1,0 +1,38 @@
+.flexBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.flexTitle {
+	padding: 10px;
+}
+
+.butBox {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.butBox button {
+	flex: 1 0 50%;
+	height: 50px;
+}
+
+.numBox {
+	padding: 20px;
+	font-size: 32px;
+}
+
+.butBox2 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.butBox2 button {
+	flex: 1 0 50%;
+	height: 50px;
+}
